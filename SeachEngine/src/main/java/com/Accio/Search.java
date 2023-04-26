@@ -36,7 +36,7 @@ public class Search extends HttpServlet {
           PreparedStatement preparedStatement = connection.prepareStatement("Insert Into History Values(?,?);");
 
           preparedStatement.setString(1,keyword);
-          preparedStatement.setString(2, "http://localhost:8080/SerachEngine/Search?keyword="+keyword);
+          preparedStatement.setString(2, "http://localhost:8080/SeachEngine/Search?keyword="+keyword);
           preparedStatement.executeUpdate();
 
             // getting results after running the  ranking query
