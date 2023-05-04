@@ -6,3 +6,6 @@ In this project I have made simple SearchEngine. The search Engine fullfills use
 The user can rise queries which be the relatable keyword from javatpoint and gets top 30 results in table form related to keyword searched for.
 
 
+This project building includes front-end , back-end and database.
+
+
